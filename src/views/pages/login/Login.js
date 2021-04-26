@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../../../assets/svgs/logo2.svg'
+// import logo from '../../../assets/svgs/logo2.svg'
 import "./login.css"
 const Login = () => {
   return (
