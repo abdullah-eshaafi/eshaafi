@@ -1,16 +1,20 @@
 import React from "react";
-
+import logo from '../../../assets/svgs/logo2.svg'
+import "./login.css"
 const Login = () => {
   return (
     <>
-      <div className="container">
-        <div className="header">
-          <h2>Login</h2>
+        <div className="login-card">
+            <div className={"header"}>
+                {/*<img src={logo} alt={logo}  />*/}
+                <h1>Login</h1>
+            </div>
+            <form autoComplete="off">
+                <input type="text" name="user" placeholder="Username"/>
+                <input type="password" name="pass" placeholder="Password"/>
+                <input type="submit" name="login" className="login login-submit" value="login"/>
+            </form>
         </div>
-        <div className="body">
-            <input type='email'/>
-        </div>
-      </div>
     </>
   );
 };

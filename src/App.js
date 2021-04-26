@@ -9,7 +9,8 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Switch>
-          <Route path='/login'  render={props => <Login {...props} />} />       
+          <Route exact path='/'  render={props => <Login {...props} />} />
+          <Route exact path='/login'  render={props => <Login {...props} />} />
         </Switch>
       </BrowserRouter>
     );
