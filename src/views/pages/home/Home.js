@@ -2,7 +2,7 @@ const Home = () => {
     return(
         <>
             <div>
-                <h2>This is home page</h2>
+                <a href={"/pakistan/dashboard"}>This is home page</a>
             </div>
         </>
     )

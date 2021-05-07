@@ -1,4 +1,5 @@
 import logo from '../assets/svgs/logo2.svg'
+import React from "react";
 
 
 const TheSidebar = () => {
@@ -30,10 +31,18 @@ const TheSidebar = () => {
             >
               {/* Add icons to the links using the .nav-icon class with font-awesome or any other icon font library */}
               <li className="nav-item">
-                <a href="#" className="nav-link active">
+                <a href="#" className="nav-link">
                   <i className="nav-icon fas fa-tachometer-alt" />
                   <p>
                     Dashboard
+                  </p>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#" className="nav-link">
+                  <i className="nav-icon fas fa-user-md" />
+                  <p>
+                    Doctors
                   </p>
                 </a>
               </li>
