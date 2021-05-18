@@ -1,7 +1,12 @@
+import TheNavigationBar from "../../../container/TheNavigationBar";
+
+
 const Home = () => {
     return(
         <>
-            <div>
+            <TheNavigationBar />
+
+            <div className={"container-fluid"}>
                 <a href={"/pakistan/dashboard"}>This is home page</a>
             </div>
         </>

@@ -9,7 +9,7 @@ const TheSidebar = () => {
       <aside className="main-sidebar sidebar-dark-primary ">
         {/* Brand Logo */}
 
-        <a href="index.html" className="brand-link">
+        <a href="/" className="brand-link">
           <img
             src={logo}
             alt={"eShaafi Logo"}
