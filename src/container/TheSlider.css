@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;500&display=swap");
+.First_Row {
+  margin-left: 20px;
+}
+
+/* .slick-prev,
+.slick-next  */
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+  opacity: 1 !important;
+}
+.slick-prev:before,
+.slick-next:before {
+  opacity: 1 !important;
+}
+
+.slick-next:before {
+  content: ">" !important;
+  color: black !important;
+  line-height: 0.01 !important;
+  font-size: 50px !important;
+}
+
+.slick-prev:before {
+  content: "<" !important;
+  color: black !important;
+  line-height: 0.01 !important;
+  font-size: 50px !important;
+}
+
+.Doctor-heading {
+  width: 213px;
+  height: 40px;
+  margin-top: 40px;
+}
+
+.Doctor-heading h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  /* identical to box height, or 118% */
+
+  text-align: center;
+  letter-spacing: 0.25px;
+
+  color: #1e1e1e;
+}
+
+.Doctor-para {
+  width: 277px;
+  height: 28px;
+}
+
+.Doctor-para p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+
+  width: 300px;
+  height: 28px;
+}
+
+.Slider-img {
+  margin-top: 36px;
+}
+
+#btn-view {
+  width: 128px;
+  height: 48px;
+  border: 1px solid #009b94;
+  box-sizing: border-box;
+  border-radius: 89px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 1.25px;
+
+  color: #009b94;
+  background-color: #ffffff;
+}

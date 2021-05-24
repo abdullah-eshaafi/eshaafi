@@ -4,14 +4,14 @@ const TheHeader = () => {
   return (
     <>
       {/* Navbar */}
-      <nav className="main-header navbar navbar-expand navbar-white navbar-light">
+      <nav className="main-header navbar navbar-expand navbar-white navbar-light fixed-top">
         {/* Left navbar links */}
         <ul className="navbar-nav">
           <li className="nav-item">
             <a
               className="nav-link"
               data-widget="pushmenu"
-              href="#"
+              href="#home"
               role="button"
             >
               <i className="fas fa-bars" />
@@ -22,7 +22,7 @@ const TheHeader = () => {
         <ul className="navbar-nav ml-auto">
           {/* Notifications Dropdown Menu */}
           <li className="nav-item dropdown">
-            <a className="nav-link" data-toggle="dropdown" href="#">
+            <a className="nav-link" data-toggle="dropdown" href="#home">
               <i className="far fa-bell" />
               <span className="badge badge-warning navbar-badge">15</span>
             </a>

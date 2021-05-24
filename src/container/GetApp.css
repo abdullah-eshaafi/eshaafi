@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap");
+.Details_container {
+  height: 495px;
+  background: #e0f3f2;
+  margin-top: 80px;
+  padding: 0px;
+}
+.s-c {
+  background: #e0f3f2;
+}
+.main_container {
+  height: 495px;
+  display: flex;
+}
+.column {
+  height: 495px;
+}
+
+.column h3 {
+  /* width: 540px;
+  height: 40px; */
+  /* margin-left: 150px; */
+  margin-top: 64px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 0.25px;
+  color: #1e1e1e;
+}
+
+.column p {
+  /* width: 540px;
+  height: 84px; */
+  /* margin-left: 150px; */
+  margin-top: 16px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+}
+
+.column h4 {
+  /* width: 245px;
+  height: 28px;
+  margin-left: 150px; */
+  margin-top: 52px;
+
+  /* W Body 1 */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+}
+
+.num_btn {
+  display: flex;
+  width: 445px;
+  height: 48px;
+  margin-top: 4px;
+
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.num_btn input {
+  width: 317px;
+  height: 48px;
+  border-radius: 4px;
+  border: none;
+}
+.num_btn button {
+  width: 128px;
+  height: 48px;
+  margin-top: 0px;
+  margin-left: 0px;
+  /* left: 467px;
+  top: 288px; */
+
+  background: #009b94;
+  border-radius: 4px;
+  border: none;
+  border-top-left-radius: 0px;
+}
+
+.num_btn ::placeholder {
+  width: 125px;
+  height: 28px;
+  padding-left: 8px;
+  margin-top: 12px;
+
+  /* W Body 1 */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  letter-spacing: 0.5px;
+
+  color: #5c5c5c;
+}
+
+.app_logo {
+  display: flex;
+  height: 54.42226791381836px;
+  /* width: 378.62px; */
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.images_ {
+  display: flex;
+  /* width: 750px; */
+  margin: 0px;
+  padding: 0px;
+}
+
+.nosheen {
+  height: 37px;
+  /* width: 232px; */
+}
+.update {
+  /* width: 232px; */
+  height: 406px;
+
+  /* Mobile Mockup Shadow */
+
+  filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
+  margin-top: 75px;
+}

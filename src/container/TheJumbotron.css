@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+.Jumbo-container {
+  background: #009b94;
+
+  border: none;
+  border-radius: 0px;
+  margin: 0px;
+}
+.Jumbo-contain {
+  background: #009b94;
+  margin-top: 60px;
+}
+
+/* .form-input input{
+    width:50% !important;
+} */
+.Jumbtron-heading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+
+  color: #ffffff;
+  margin: auto;
+}
+
+.location-input {
+  background: #ffffff;
+  border-radius: 4px;
+  width: 292px;
+  height: 48px;
+
+  background: #ffffff;
+  border-radius: 4px;
+  border: none;
+}
+.search-input input {
+  background: #ffffff;
+  border-radius: 4px;
+
+  border: none;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.Jumbo button {
+  border: none;
+  background: #00625d;
+  border-radius: 4px;
+  color: white;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  height: 48px;
+  width: 120px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 1.25px;
+  margin-top: 0px !important ;
+  color: #ffffff;
+}
+
+.btn-primary {
+  background: #ff9300;
+  border-radius: 4px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 1.25px;
+
+  color: #ffffff;
+  margin: 0px 10px;
+}

@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap");
+.review-heading {
+  height: 298px;
+  padding-top: 258px;
+  display: flex;
+
+  justify-content: center;
+}
+
+.review-heading h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  width: 445px;
+  height: 40px;
+  /* identical to box height, or 118% */
+
+  letter-spacing: 0.25px;
+
+  color: #ffffff;
+}
+
+.review-para {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.review-para p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  letter-spacing: 0.5px;
+
+  color: #ffffff;
+  width: 445px;
+  height: 40px;
+}

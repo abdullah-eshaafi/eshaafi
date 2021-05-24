@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.heading-img {
+  margin: auto;
+}
+
+.Care-container {
+  margin-top: 80px;
+}
+.Care-heading {
+  width: 497px;
+  height: 40px;
+}
+
+.Care-heading p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  /* identical to box height, or 118% */
+
+  letter-spacing: 0.25px;
+  margin: auto;
+  color: #1e1e1e;
+  padding-left: 30px;
+}
+.care-para {
+  width: 497px;
+  height: 112px;
+}
+.care-para p {
+  width: 497px;
+  padding-left: 30px;
+  padding-top: 20px;
+  height: 112px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+}
+
+.Care-container {
+  height: 710px;
+}
+.img-con {
+  display: flex;
+  justify-content: center;
+}

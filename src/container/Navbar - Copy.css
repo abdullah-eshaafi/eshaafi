@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+.container {
+  background-color: #ffffff;
+}
+.btn-login,
+.btn-doctor {
+  padding: 5px 30px !important;
+}
+
+.btn-doctor {
+  border: none !important;
+}
+#second,
+#first,
+#third {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  color: #1e1e1e;
+  padding-left: 35px;
+}
+
+#btn_login {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  text-align: center;
+  letter-spacing: 0.5px;
+
+  color: #009b94;
+  border-color: #009b94;
+  background-color: white;
+}
+#btn_doctor {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+  background-color: white;
+
+  letter-spacing: 0.5px;
+  background-color: white;
+  color: #009b94;
+}
