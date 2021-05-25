@@ -1,5 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.Review-card-heading h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+
+  /* identical to box height, or 175% */
+
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+
+  padding-top: 10px;
+}
+.Review-card-heading img {
+  padding-bottom: 10px;
+}
+.ReviewCard-para {
+  height: 196px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ReviewCard-para p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  width: fit-content;
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+}
+
 .review-heading {
   height: 298px;
   padding-top: 258px;
@@ -27,6 +66,7 @@
   display: flex;
   justify-content: center;
   margin-top: 16px;
+  padding-bottom: 262px;
 }
 
 .review-para p {
@@ -42,4 +82,21 @@
   color: #ffffff;
   width: 445px;
   height: 40px;
+}
+
+.Review-img {
+  margin-right: auto;
+  margin-left: auto;
+  /* margin-top: 30.5px; */
+}
+
+.colon-img {
+  margin-top: 40px;
+}
+
+.second-container {
+  height: 628px;
+}
+
+.Thecard-containe {
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import outer from "../Images/Outer.png";
+import outer from "../Images/image.svg";
 import "./Care.css";
 function Care() {
   return (

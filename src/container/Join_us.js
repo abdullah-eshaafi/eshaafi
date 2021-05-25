@@ -28,22 +28,42 @@ function Join_us() {
         >
           <ul className="list-doc">
             <li>
-              <img src={Vector} style={{ paddingRight: "10px" }} />
+              <img
+                src={Vector}
+                style={{
+                  paddingRight: "10px",
+                }}
+              />
               Connect to more patients through online bookings
             </li>
-            <li>
-              <img src={Vector} style={{ paddingRight: "10px" }} />
+            <li style={{ marginTop: "10px" }}>
+              <img
+                src={Vector}
+                style={{
+                  paddingRight: "10px",
+                }}
+              />
               Upload and manage your schedule with ease
             </li>
-            <li>
-              <img src={Vector} style={{ paddingRight: "10px" }} />
+            <li style={{ marginTop: "10px" }}>
+              <img
+                src={Vector}
+                style={{
+                  paddingRight: "10px",
+                }}
+              />
               Introducing vacation mode for doctors
             </li>
-            <li>
-              <img src={Vector} style={{ paddingRight: "10px" }} />
+            <li style={{ marginTop: "10px" }}>
+              <img
+                src={Vector}
+                style={{
+                  paddingRight: "10px",
+                }}
+              />
               Manage patients better with eShaafi.com
             </li>
-            <li>
+            <li style={{ marginTop: "10px" }}>
               <img src={Vector} style={{ paddingRight: "10px" }} />
               View shared medical history of pateints
             </li>

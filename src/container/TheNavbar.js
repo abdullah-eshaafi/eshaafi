@@ -1,5 +1,5 @@
 import React from "react";
-import Logo_Eshaafi from "../Images/Eshaafi.png";
+import Logo_Eshaafi from "../Images/Logo.svg";
 import "./Navbar.css";
 import {
   Container,

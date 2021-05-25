@@ -75,25 +75,31 @@ export default function TheSlider() {
   };
   return (
     <Container>
-      <Row className="justify-content-center">
-        <div className="Doctor-heading">
-          <h1>Our Doctors</h1>
-        </div>
-      </Row>
-      <Row className="justify-content-center">
-        <div className="Doctor-para">
-          <p>Find specialists as per your need</p>
-        </div>
-      </Row>
+      <div className="slider-container">
+        <Row className="justify-content-center">
+          <div className="Doctor-heading">
+            <h1>Our Doctors</h1>
+          </div>
+        </Row>
+        <Row className="justify-content-center">
+          <div className="Doctor-para" style={{ paddingTop: "8px" }}>
+            <p>Find specialists as per your need</p>
+          </div>
+        </Row>
 
-      <Slider {...settings} className="Slider-img">
-        {data.map((data) => (
-          <Card pic={data.pic} title={data.title} />
-        ))}
-      </Slider>
-      <Row className="justify-content-center">
-        <button id="btn-view">View All</button>
-      </Row>
+        <Slider
+          {...settings}
+          className="Slider-img"
+          style={{ paddingTop: "36px" }}
+        >
+          {data.map((data) => (
+            <Card pic={data.pic} title={data.title} />
+          ))}
+        </Slider>
+        <Row className="justify-content-center" style={{ paddingTop: "28px" }}>
+          <button id="btn-view">View All</button>
+        </Row>
+      </div>
     </Container>
   );
 }

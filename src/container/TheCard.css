@@ -1,27 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-.card-container {
+.TheCard-container {
+  margin-top: 40px;
+}
+.nav-container {
+  height: 80px;
+}
+.main-wrapper {
+  width: 550px;
+  height: 200px;
+  display: flex;
   background: #ffffff;
   border: 1px solid #cccccc;
   box-sizing: border-box;
   border-radius: 6px;
+  justify-content: center;
 }
 
-.card-desc p {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 22px;
-  text-align: left;
-  /* or 157% */
-
-  letter-spacing: 0.25px;
-
-  color: #5c5c5c;
+.head-btn {
+  width: 330px;
+  height: 198px;
+  padding-top: 16px;
+  padding-left: 16px;
 }
 
-.Catd-title h3 {
+.head-btn h3 {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -33,23 +38,27 @@
 
   color: #1e1e1e;
 }
-
-.btn-appointment button {
-  background: #009b94;
-  border-radius: 4px;
+.head-btn p {
   font-family: Poppins;
   font-style: normal;
-  font-weight: 500;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-  /* identical to box height, or 171% */
+  line-height: 22px;
+  /* or 157% */
 
-  text-align: center;
-  letter-spacing: 1.25px;
+  letter-spacing: 0.25px;
 
-  /* Default / White */
+  color: #5c5c5c;
+}
 
-  color: #ffffff;
-  border: none;
+.head-btn button {
+  background: #009b94;
+  border-radius: 4px;
   padding: 8px 16px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
 }
