@@ -37,6 +37,7 @@
   letter-spacing: 0.5px;
 
   color: #1e1e1e;
+  margin-top: 32px;
 }
 
 .review-heading {
@@ -97,6 +98,6 @@
 .second-container {
   height: 628px;
 }
-
-.Thecard-containe {
+.third-container {
+  margin-top: 32px;
 }

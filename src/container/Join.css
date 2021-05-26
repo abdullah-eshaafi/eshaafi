@@ -80,3 +80,7 @@
   /* Default / White */
   border: none;
 }
+
+.btn-join:hover {
+  background: #00625d;
+}

@@ -93,11 +93,15 @@
   margin-left: 0px;
   /* left: 467px;
   top: 288px; */
-
+  letter-spacing: 1.25px;
+  color: #ffffff;
   background: #009b94;
   border-radius: 4px;
   border: none;
   border-top-left-radius: 0px;
+}
+.num_btn button:hover {
+  background: #00625d;
 }
 
 .num_btn ::placeholder {

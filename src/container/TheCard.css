@@ -61,4 +61,60 @@
   justify-content: center;
   align-items: center;
   color: #ffffff;
+  text-align: center;
+  letter-spacing: 1.25px;
+}
+
+.head-btn button:hover {
+  background: #00625d;
+}
+
+.head-btn-second {
+  width: 330px;
+  height: 198px;
+  padding-top: 16px;
+  padding-left: 16px;
+}
+
+.head-btn-second h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+}
+.head-btn-second p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+
+  letter-spacing: 0.25px;
+
+  color: #5c5c5c;
+}
+
+.head-btn-second button {
+  background: #ff9300;
+  border-radius: 4px;
+  padding: 8px 16px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 1.25px;
+}
+
+.head-btn-second button:hover {
+  background: #e98600;
 }

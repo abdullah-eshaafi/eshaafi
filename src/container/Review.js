@@ -30,7 +30,7 @@ function Review() {
           className="px-0 d-flex align-content-center  second-container"
           style={{ background: "#E0F3F2" }}
         >
-          <Col lg={9} style={{ background: "white", height: "520px" }}>
+          <Col lg={9} className="third-container" style={{ background: "white", height: "564px" }}>
             <Row>
               <Col lg={11} className="d-flex justify-content-end colon-img">
                 <img src={Colon} />

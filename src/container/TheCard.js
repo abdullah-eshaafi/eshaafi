@@ -4,6 +4,7 @@ import Doctor from "../Images/Crad1.svg";
 import Card2 from "../Images/Card333.png";
 import { Col, Container, Row, Card } from "react-bootstrap";
 function TheCard() {
+ 
   return (
     <Container>
       <Row>
@@ -27,15 +28,13 @@ function TheCard() {
             <div className="image-wrapper">
               <img src={Doctor} />
             </div>
-            <div className="head-btn">
+            <div className="head-btn-second">
               <h3>Instant Care</h3>
               <p>
                 Find specialist doctors according to your requirements, and book
                 appointments through our hassle-free process.
-              </p>
-              <button style={{ background: "#FF9300" }}>
-                Instant Consultation
-              </button>
+              </p>{" "}
+              <button >Instant Consultation</button>
             </div>
           </div>
         </Col>

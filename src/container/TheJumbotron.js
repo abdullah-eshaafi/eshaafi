@@ -1,6 +1,8 @@
 import React from "react";
 import "./TheJumbotron.css";
-import { Jumbotron, Row, Col, Button, Container, Form } from "react-bootstrap";
+import { faMapMarkedAlt } from "@fortawesome/free-solid-svg-icons";
+import { Row, Col, Container, Form } from "react-bootstrap";
+
 function TheJumbotron() {
   return (
     <Container fluid className="Jumbo-container">

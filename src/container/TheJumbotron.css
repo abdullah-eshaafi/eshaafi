@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
 .Jumbo-container {
   background: #009b94;
   height: 432px !important;
@@ -45,7 +46,7 @@
   border-bottom-right-radius: 0px;
 }
 
-.search-input ::placeholder {
+.search-input::placeholder {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -58,7 +59,7 @@
   color: #5c5c5c;
 }
 
-.form-input ::placeholder {
+.form-input::placeholder {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -81,8 +82,12 @@
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
   color: #ffffff;
+  letter-spacing: 1.25px;
 }
 
+.Jumbo-btn button:hover {
+  background: #00504c;
+}
 .btn-second {
   display: flex;
   justify-content: center;
@@ -106,4 +111,7 @@
 
   color: #ffffff;
   border: none;
+}
+.btn-second button:hover {
+  background: #e98600;
 }

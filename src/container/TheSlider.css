@@ -97,3 +97,8 @@
   color: #009b94;
   background-color: #ffffff;
 }
+
+#btn-view:hover {
+  background: #009b94;
+  color: #ffffff;
+}
