@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 @import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .Jumbo-container {
   background: #009b94;
   height: 432px !important;
@@ -38,6 +39,9 @@
 
 .form-input {
   margin-top: 40px;
+  width: 292px;
+  height: 48px;
+  background-color: #ffffff;
 }
 
 .search-input input {
@@ -45,7 +49,29 @@
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
 }
+.input-lahore {
+  width: 232px;
+  height: 48px;
+  outline: none;
+  border: none;
+}
+.input-lahore::placeholder {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+  padding-left: 15px;
+  letter-spacing: 0.5px;
 
+  color: #5c5c5c;
+}
+
+.location-icon {
+  margin-top: 16px;
+  margin-left: 15px;
+}
 .search-input::placeholder {
   font-family: Poppins;
   font-style: normal;

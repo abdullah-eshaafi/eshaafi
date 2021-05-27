@@ -1,6 +1,6 @@
 import React from "react";
 import "./TheJumbotron.css";
-import { faMapMarkedAlt } from "@fortawesome/free-solid-svg-icons";
+import Logo from "../Images/Stroke.png";
 import { Row, Col, Container, Form } from "react-bootstrap";
 
 function TheJumbotron() {
@@ -8,18 +8,21 @@ function TheJumbotron() {
     <Container fluid className="Jumbo-container">
       <Container className="Jumbo-contain">
         <Row>
-          <Col xl={9} lg={10} className="Jumbtron-heading">
+          <Col xl={9} lg={11} className="Jumbtron-heading">
             <h3>Find & Connect With The Best Doctors in Pakistan</h3>
           </Col>
         </Row>
         <Row>
-          <Col
-            className="form-input"
-            sm={(12, "d-flex justify-content-center")}
-            xl={4}
-            lg={4}
-          >
-            <Form.Control size="lg" type="text" placeholder="Lahore" />
+          <Col sm={(12, "d-flex justify-content-center")}>
+            <div className="form-input">
+              <span>
+                <i class="location-icon fas fa-map-marker-alt 9x"></i>
+              </span>
+              <input type="text" placeholder="Lahore"  className="input-lahore"/>
+              <span>
+                <i class="fas fa-crosshairs fa-lg"></i>
+              </span>
+            </div>
           </Col>
           <Col className="pr-0  search-input" sm={12} xl={6} lg={6}>
             <Form.Control
