@@ -37,6 +37,12 @@ function ThePhone(props) {
             <Row className="modal-para">
               <p>Please enter your phone number to login or register </p>
             </Row>
+            <Row className="modal-phone-num">
+              <input type="phone" />
+            </Row>
+            <Row className="modal-num-btn">
+              <button>Continue</button>
+            </Row>
           </Col>
         </Row>
       </Modal.Body>

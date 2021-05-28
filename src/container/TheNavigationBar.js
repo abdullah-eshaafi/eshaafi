@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import Logo from "../Images/Logo.svg";
 import "./Navbar.css";
 import { Navbar, Nav, NavDropdown, Form, Button } from "react-bootstrap";
-import PhoneModal from "../Compnonets/Login/ThePhone";
-import { Modal } from "react-bootstrap";
+
 import ThePhone from "../Compnonets/Login/ThePhone";
 const TheNavigationBar = () => {
   const [modalShow, setModalShow] = useState(false);

@@ -58,3 +58,25 @@
 
   color: #1e1e1e;
 }
+
+.modal-phone-num {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.modal-phone-num input {
+  width: 20rem;
+  height: 3rem;
+}
+
+.modal-num-btn {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+.modal-num-btn{
+  
+}
