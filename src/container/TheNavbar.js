@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import Logo_Eshaafi from "../Images/Logo.svg";
 import "./Navbar.css";
 import {
@@ -11,6 +11,12 @@ import {
 } from "react-bootstrap";
 
 function TheNavbar() {
+  
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+  
   return (
     <>
       <Container>
@@ -47,7 +53,7 @@ function TheNavbar() {
             </Nav>
             <Form inline>
               <button className="btn-doctor mx-3">I am a doctor</button>
-              <button className="btn-login mx-3">Log In</button>
+              <button className="btn-login mx-3 ">Log In</button>
             </Form>
           </Navbar.Collapse>
         </Navbar>

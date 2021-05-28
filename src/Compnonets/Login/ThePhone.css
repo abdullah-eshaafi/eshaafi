@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.Modal-Header-first {
+  width: 321px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background: #009b94;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 0rem;
+}
+
+.Modal-Header-second {
+  width: 480px;
+
+  border-bottom: none;
+
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+.Modal-Header-second img {
+  cursor: pointer;
+  margin-right: 2.4rem;
+  margin-top: 1rem;
+}
+
+.modal-body {
+  padding: 0rem;
+}
+
+.modal-logo-eshafi {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-logo-eshafi img {
+  margin-top: 2.7rem;
+}
+
+.modal-para {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.75rem;
+}
+
+.modal-para p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  width: 18.9rem;
+  height: 3.5rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+}

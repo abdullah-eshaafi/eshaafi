@@ -2,14 +2,14 @@
 import React from "react";
 import Breadcrumbs from "../../base/breadcrumbs/Breadcrumbs";
 import Cards from "../../base/cards/Cards";
-import TheHeader from "../../../container/TheHeader";
+
 import TheSidebar from "../../../container/TheSidebar";
 
 const AdminDashboard = () => {
     return (
         <>
                 <div className={"wrapper"}>
-                    <TheHeader />
+                 
                     <TheSidebar />
                     {/* Content Header (Page header) */}
                     {/* /.content-header */}

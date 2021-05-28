@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import Logo from "../Images/Logo.svg";
 import "./Navbar.css";
-
-import { Navbar, Nav, NavDropdown, Button, Form } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown, Form, Button } from "react-bootstrap";
+import PhoneModal from "../Compnonets/Login/ThePhone";
+import { Modal } from "react-bootstrap";
+import ThePhone from "../Compnonets/Login/ThePhone";
 const TheNavigationBar = () => {
+  const [modalShow, setModalShow] = useState(false);
   return (
     <>
       <Navbar className="container nav-container" expand="lg">
@@ -38,12 +41,17 @@ const TheNavigationBar = () => {
             <Button className="btn-doctor" id="btn_doctor">
               I am a Doctor
             </Button>
-            <Button id="btn_login" className="btn-login">
+            <Button
+              id="btn_login"
+              className="btn-login"
+              onClick={() => setModalShow(true)}
+            >
               Login
             </Button>
           </Form>
         </Navbar.Collapse>
       </Navbar>
+      <ThePhone show={modalShow} onHide={() => setModalShow(false)} />
     </>
   );
 };
