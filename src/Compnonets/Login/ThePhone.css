@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 .Modal-Header-first {
   width: 321px;
   border-top-right-radius: 0px;
@@ -7,6 +8,15 @@
   padding-top: 0px;
   padding-left: 0px;
   padding-bottom: 0rem;
+}
+
+.Modal-Header-first img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 113px !important;
+  padding-bottom: 127px;
 }
 
 .Modal-Header-second {
@@ -21,8 +31,9 @@
 }
 .Modal-Header-second img {
   cursor: pointer;
-  margin-right: 2.4rem;
+  margin-right: 1.22rem;
   margin-top: 1rem;
+  margin-left: 1rem;
 }
 
 .modal-body {
@@ -69,14 +80,34 @@
   width: 20rem;
   height: 3rem;
 }
-
 .modal-num-btn {
   margin-top: 1rem;
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  margin-bottom: 128px;
 }
 
+.modal-num-btn button {
+  width: 20rem;
+  height: 48px;
+  background: #009b94;
+  border-radius: 4px;
+  padding: 12px 16px;
+  border: none;
 
-.modal-num-btn{
-  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  text-align: center;
+  letter-spacing: 1.25px;
+
+  /* Default / White */
+
+  color: #ffffff;
 }
