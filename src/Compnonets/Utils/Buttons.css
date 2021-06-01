@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+.resend-otp {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+.resend-otp button {
+  background: #ffffff;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  text-align: center;
+  letter-spacing: 1.25px;
+  margin-left: 10.3rem;
+  color: #009b94;
+  border: none;
+}
