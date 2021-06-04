@@ -4,6 +4,14 @@
   background-color: #ffffff;
   height: 80px;
 }
+
+
+
+.nav-second-container {
+  width: 100%;
+  height: 80px;
+  background-color:white;
+}
 .btn-login,
 .btn-doctor {
   padding: 5px 30px !important;
