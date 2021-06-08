@@ -21,3 +21,87 @@
   color: #009b94;
   border: none;
 }
+
+.btn-primary-style button {
+  background: #00625d;
+  border-radius: 4px;
+  margin-top: 40px;
+  border: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  color: #ffffff;
+  letter-spacing: 1.25px;
+}
+
+.btn-primary-size button {
+  width: 120px;
+  height: 48px;
+}
+
+.btn-secondry-style button {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  text-align: center;
+  letter-spacing: 1.25px;
+
+  /* Default / White */
+
+  color: #ffffff;
+  margin-top: 24px;
+}
+
+.btn-secondry-size button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+
+  background: #009b94;
+  border-radius: 4px;
+  border: none;
+  margin-left: 10px;
+}
+
+#dropdown-basic-button {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  color: black;
+}
+
+.btn-third-style button {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  /* text-align: center; */
+  letter-spacing: 1.25px;
+
+  color: #1e1e1e;
+  margin-top: 8px;
+}
+
+.btn-third-size button {
+  width: 182px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+
+  background: #ffffff;
+  border: 1px solid #5c5c5c;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-right: 16px;
+  margin-left: 10px;
+}

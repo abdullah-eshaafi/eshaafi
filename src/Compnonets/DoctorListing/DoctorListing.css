@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+.breadcrumb {
+  background-color: #ffffff;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 0px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "\203A";
+}
+
+.relevence-filter-style {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Heading-Section p {
+  margin-bottom: 8px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+  letter-spacing: 0.15px;
+
+  color: #1e1e1e;
+}
+
+.Doctor-second-Heading p {
+  margin-bottom: 40px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #5c5c5c;
+}
+
+.card-appointment p {
+  margin-bottom: 8px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+}
+
+.card-video-checkbox label {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal !important;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+  margin-bottom: 16px;
+}
+
+.card-video-checkbox label > input {
+  margin-right: 16px;
+}
+
+.card-gender-checkbox h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+}
+
+.card-gender-checkbox label {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal !important;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+}
+#female-checkbox {
+  margin-bottom: 0px !important;
+}
+.card-gender-checkbox input {
+  margin-right: 16px;
+}
+
+.Speciality-Dropdown h3,
+.location-dropdwon h3,
+.fee-range-dropdown h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+  margin-top: 16px;
+  color: #1e1e1e;
+}
+
+.ButtonDropdown {
+  margin-bottom: 16px;
+}
+
+#relevance-dropdown {
+  width: 206px;
+  height: 48px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #5c5c5c;
+}
+
+#Speciality-Dropdown,
+#location-dropdwon {
+  width: 240px;
+  height: 48px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #5c5c5c;
+}
+
+#min-range,
+#max-range {
+  width: 104px;
+  height: 48px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #5c5c5c;
+}
+
+#negative-sign {
+  margin: 12px;
+}

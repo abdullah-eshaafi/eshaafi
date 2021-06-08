@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+.Doctor-info h3 {
+  margin-top: 24px;
+  margin-bottom: 4px !important;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  letter-spacing: 0.15px;
+  margin-left: 0px !important;
+  color: #1e1e1e;
+  margin-left: 24px;
+}
+.Doctor-info h4 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  margin-left: 24px;
+  letter-spacing: 0.5px;
+  margin-left: 0px !important;
+  color: #5c5c5c;
+  margin-bottom: 4px !important;
+}
+
+.Doctor-info h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  margin-left: 24px;
+  letter-spacing: 0.5px;
+  margin-left: 0px !important;
+  color: #5c5c5c;
+  margin-bottom: 16px;
+}
+
+.doctor-stats {
+  border-left: 2px solid #009b94;
+  margin-bottom: 24px !important;
+}
+
+.doctor-stats h3 {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  letter-spacing: 0.5px;
+  margin-left: 8px !important;
+  color: #1e1e1e;
+  margin-right: 8px;
+}
+
+.doctor-stats h4 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.5px;
+  margin-left: 8px !important;
+  color: #5c5c5c;
+  margin-right: 8px;
+  margin-bottom: 0px !important;
+}

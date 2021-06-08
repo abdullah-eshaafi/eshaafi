@@ -1,9 +1,11 @@
 import React from "react";
 import "./TheJumbotron.css";
-import Logo from "../Images/Stroke.png";
 import { Row, Col, Container, Form } from "react-bootstrap";
-
+import Searchbar from "../Compnonets/Utils/Searchbar";
+import { TheButton } from "../Compnonets/Utils/Buttons.js";
 function TheJumbotron() {
+  const locationIcon = <i class="location-icon fas fa-map-marker-alt 9x"></i>;
+  const detectIcon = <i class="fas fa-crosshairs fa-lg"></i>;
   return (
     <Container fluid className="Jumbo-container">
       <Container className="Jumbo-contain">
@@ -13,26 +15,29 @@ function TheJumbotron() {
           </Col>
         </Row>
         <Row>
-          <Col sm={(12, "d-flex justify-content-center")}>
+          <Col sm={(12, "d-flex justify-content-center")} xl={3} lg={3}>
             <div className="form-input">
-              <span>
-                <i class="location-icon fas fa-map-marker-alt 9x"></i>
-              </span>
-              <input type="text" placeholder="Lahore"  className="input-lahore"/>
-              <span>
-                <i class="fas fa-crosshairs fa-lg"></i>
-              </span>
+              <Searchbar locationIcon={locationIcon} detectIcon={detectIcon} />
             </div>
           </Col>
-          <Col className="pr-0  search-input" sm={12} xl={6} lg={6}>
-            <Form.Control
-              size="lg"
-              type="text"
+          <Col
+            className="pr-0  search-input"
+            sm={12}
+            xl={(7, "d-flex justify-content-center")}
+            lg={7}
+          >
+            <Searchbar
               placeholder="Search for doctors, specialties, symptoms"
+              serachStyle="search-style-secondry"
+              serachSize="search-size-secondry"
             />
           </Col>
-          <Col className="pl-0  Jumbo-btn" xl={2} lg={2}>
-            <button type="button">Search</button>
+          <Col
+            className="pl-0  Jumbo-btn"
+            xl={(2, "d-flex justify-content-end")}
+            lg={2}
+          >
+            <TheButton title="search" />
           </Col>
         </Row>
         <Row>

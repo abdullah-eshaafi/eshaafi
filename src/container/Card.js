@@ -5,11 +5,11 @@ import "./Card.css";
 function Card({ pic, title }) {
   return (
     <Container>
-      <Row className="Card" >
+      <Row className="card-primary-style">
         <img src={pic} />
       </Row>
       <Row className="justify-content-center">
-        <div className="paragr">
+        <div className="card-primary-style">
           {" "}
           <p>{title}</p>
         </div>

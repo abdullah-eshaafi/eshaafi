@@ -1,6 +1,4 @@
-import logo from '../assets/svgs/logo2.svg'
 import React from "react";
-
 
 const TheSidebar = () => {
   return (
@@ -11,7 +9,6 @@ const TheSidebar = () => {
 
         <a href="/" className="brand-link">
           <img
-            src={logo}
             alt={"eShaafi Logo"}
             className={"brand-image"}
             width={90}
@@ -33,17 +30,13 @@ const TheSidebar = () => {
               <li className="nav-item">
                 <a href="#" className="nav-link">
                   <i className="nav-icon fas fa-tachometer-alt" />
-                  <p>
-                    Dashboard
-                  </p>
+                  <p>Dashboard</p>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#" className="nav-link">
                   <i className="nav-icon fas fa-user-md" />
-                  <p>
-                    Doctors
-                  </p>
+                  <p>Doctors</p>
                 </a>
               </li>
             </ul>
