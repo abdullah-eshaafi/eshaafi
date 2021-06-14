@@ -5,6 +5,7 @@ import { Navbar, Nav, Form, Button, Container } from "react-bootstrap";
 import { DropDownicon } from "../Compnonets/Utils/DropDownIcon";
 import Drop_Down_Icon from "../Images/Icons/Dropdown-icon.svg";
 // import TheDropdown from "./TheDropdown.js";
+import IconArrow from "../Images/Icons/iconArrow.svg";
 import ThePhone from "../Compnonets/Login/ThePhone";
 import { DropDownContainer } from "../Compnonets/Utils/DropDownIcon";
 const TheNavigationBar = () => {
@@ -21,7 +22,7 @@ const TheNavigationBar = () => {
         className="px-0 fixed-top main-navbar-container"
         style={{ background: "white" }}
       >
-        <Navbar className=" nav-container w-100 container" expand="lg">
+        <Navbar className=" nav-container container" expand="lg">
           <Navbar.Brand href="#home" className="logo">
             <img src={Logo} alt={"logo"} />
           </Navbar.Brand>
@@ -76,7 +77,14 @@ const TheNavigationBar = () => {
         className="fixed-top"
       >
         <Container>
-          <DropDownContainer />
+          <DropDownContainer
+            lg={3}
+            md={3}
+            xs={6}
+            FirstHeading="Choose a specialty"
+            SecondHeading="  View all specialties"
+            IconArrow={IconArrow}
+          />
         </Container>
       </div>
     </>

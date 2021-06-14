@@ -6,7 +6,6 @@ function ThePhone(props) {
   return (
     <>
       <div style={{ display: props.phone ? "block" : "none" }}>
-        {" "}
         <Row>
           <Col
             xl={5}

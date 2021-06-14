@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import "./DropDownicon.css";
 import IconData from "./DropDownData";
-import IconArrow from "../../Images/Icons/iconArrow.svg";
+
 export const DropDownicon = ({ img, onClick, children }) => {
   return (
     <>
@@ -13,20 +13,33 @@ export const DropDownicon = ({ img, onClick, children }) => {
   );
 };
 
-export const DropDownContainer = () => {
+export const DropDownContainer = ({
+  lg,
+  md,
+  xs,
+  FirstHeading,
+  SecondHeading,
+  IconArrow,
+}) => {
   return (
     <>
       {" "}
       <Container className="DropDown-main-container">
         <Row>
-          <Col className="px-0 Icon-heading">
-            <h3>Choose a specialty</h3>
+          <Col
+            className="px-0 Icon-heading"
+            style={{ display: FirstHeading ? "block" : "none" }}
+          >
+            <h3>{FirstHeading}</h3>
           </Col>
         </Row>
         <Row>
-          <Col className="px-0 Icon-second-heading">
+          <Col
+            className="px-0 Icon-second-heading"
+            style={{ display: SecondHeading ? "block" : "none" }}
+          >
             <p>
-              View all specialties
+              {SecondHeading}
               <span>
                 <img src={IconArrow} />
               </span>
@@ -39,9 +52,9 @@ export const DropDownContainer = () => {
           {IconData.map((icon) => (
             <Col
               className="px-0 mx-0 dropdown-card-main-container"
-              lg={3}
-              md={3}
-              xs={6}
+              lg={lg}
+              md={md}
+              xs={xs}
             >
               <div className="small-card-style">
                 <img src={icon.image} alt="Doctor icons" />

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Searchbar.css";
-const Styles = ["search-style-primary", "search-style-secondry"];
-const Sizes = ["search-size-primary", "search-size-secondry"];
+const Styles = ["search-style-primary", "search-style-secondry" , "doctor-listing-search-style"];
+const Sizes = ["search-size-primary", "search-size-secondry " , "doctor-listing-search-size"];
 function Searchbar({
   serachStyle,
   serachSize,

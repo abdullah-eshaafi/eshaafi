@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.doctor-listing-main-container {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.doctor-listing-title-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.close-icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 18px;
+}
+
+.doctor-listing-title-heading p {
+  margin-left: 9px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  text-align: center;
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+}

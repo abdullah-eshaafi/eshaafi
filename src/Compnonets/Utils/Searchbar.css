@@ -25,3 +25,9 @@
 .search-style-secondry input:focus {
   outline: none;
 }
+
+.doctor-listing-search-size input {
+  width: 48.1rem;
+  height: 48px;
+  margin-left: 9px !important;
+}
