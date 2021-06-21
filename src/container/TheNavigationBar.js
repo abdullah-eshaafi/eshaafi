@@ -26,7 +26,10 @@ const TheNavigationBar = () => {
           <Navbar.Brand href="#home" className="logo">
             <img src={Logo} alt={"logo"} />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            style={{ background: "transparent" }}
+          />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto  second">
               <Nav.Link>

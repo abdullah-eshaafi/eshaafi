@@ -1,16 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 .nav-container {
-  /* background-color: #ffffff; */
-  /* height: 80px; */
+  background-color: #ffffff;
+  height: 80px;
 }
-
-
 
 .nav-second-container {
   width: 100%;
   height: 80px;
-  background-color:white;
+  background-color: white;
 }
 .btn-login,
 .btn-doctor {
@@ -66,4 +64,10 @@
   letter-spacing: 0.5px;
   background-color: white;
   color: #009b94;
+}
+@media only screen and (max-width: 992px) {
+  #basic-navbar-nav {
+    width: 100% !;
+    background-color: lightblue;
+  }
 }

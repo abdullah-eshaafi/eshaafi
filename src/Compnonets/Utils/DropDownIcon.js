@@ -20,6 +20,7 @@ export const DropDownContainer = ({
   FirstHeading,
   SecondHeading,
   IconArrow,
+  marginBottom,
 }) => {
   return (
     <>
@@ -56,7 +57,10 @@ export const DropDownContainer = ({
               md={md}
               xs={xs}
             >
-              <div className="small-card-style">
+              <div
+                className="small-card-style"
+                style={{ marginBottom: marginBottom }}
+              >
                 <img src={icon.image} alt="Doctor icons" />
                 <p>{icon.title}</p>
               </div>

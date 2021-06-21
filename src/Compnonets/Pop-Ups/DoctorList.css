@@ -11,16 +11,20 @@
 .close-icon {
   display: flex;
   justify-content: flex-end;
-  margin-right: 18px;
+  margin-right: 14px;
+  margin-top: 16px;
 }
 
 .doctor-listing-title-heading p {
-  margin-left: 9px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-end;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 28px;
+  margin-right: 2.5rem;
   /* identical to box height, or 175% */
 
   text-align: center;
