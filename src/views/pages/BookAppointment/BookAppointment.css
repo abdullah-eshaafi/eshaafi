@@ -1,0 +1,84 @@
+.Book-appouinment-main-container {
+  display: "flex";
+  justify-content: space-between;
+  margin-top: 32px;
+}
+.Book-appointment-image-Container {
+  display: flex;
+}
+.Book-appointment-image {
+  margin-right: 24px;
+}
+
+.Book-appointment-profile-Container h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  letter-spacing: 0.15px;
+
+  color: #1e1e1e;
+}
+
+.Book-appointment-profile-Container h4 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  text-align: center;
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+}
+
+.Book-appointment-fee {
+  display: flex;
+}
+
+.Book-appointment-fee h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #1e1e1e;
+}
+
+.Book-appointment-price h5 {
+  color: #009b94;
+}
+
+.current-date-time h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+}
+
+.current-month-date h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  letter-spacing: 0.15px;
+  color: #1e1e1e;
+}
+

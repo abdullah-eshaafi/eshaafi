@@ -7,7 +7,7 @@ import Home from "./views/pages/home/Home";
 
 import TheLoginSystem from "./views/pages/home/TheLoginSystem";
 import Doctor_Listing from "./views/pages/DoctorListing/Doctor_Listing";
-
+import BookAppointment from "./views/pages/BookAppointment/BookAppointment";
 class App extends Component {
   render() {
     return (
@@ -21,6 +21,7 @@ class App extends Component {
             path="/pakistan/lahore/dermatologist"
             component={Doctor_Listing}
           />
+          <Route exact path="/BookAppointment" component={BookAppointment} />
         </Switch>
       </BrowserRouter>
     );
