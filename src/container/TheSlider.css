@@ -24,14 +24,14 @@
   content: ">" !important;
   color: black !important;
   line-height: 0.01 !important;
-  font-size: 50px !important;
+  font-size: 20px !important;
 }
 
 .slick-prev:before {
   content: "<" !important;
   color: black !important;
   line-height: 0.01 !important;
-  font-size: 50px !important;
+  font-size: 20px !important;
 }
 
 .Doctor-heading {

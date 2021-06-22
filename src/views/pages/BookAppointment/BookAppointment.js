@@ -102,7 +102,9 @@ function BookAppointment() {
             </div>
           </div>
         </Row>
-        <AppointmentSlot />
+        <div style={{ marginTop: "60px" }}>
+          <AppointmentSlot />
+        </div>
       </Container>
     </>
   );

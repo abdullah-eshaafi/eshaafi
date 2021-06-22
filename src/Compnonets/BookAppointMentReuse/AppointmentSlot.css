@@ -1,4 +1,45 @@
 .Appointment-main-container {
+  display: flex !important;
+  justify-content: center !important;
+}
+.Date-selection {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.Timings-slot {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 108px;
+  height: 48px;
+  padding: 10px 16px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Appointment-Date-selection {
+  background: #ffffff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  text-align: center;
+  letter-spacing: 0.15px;
+
+  color: #1e1e1e;
+  /* padding-right: 56px !important; */
+  padding-left: 0px !important;
+}
+
+.date-slider {
   display: flex;
   justify-content: center;
 }
