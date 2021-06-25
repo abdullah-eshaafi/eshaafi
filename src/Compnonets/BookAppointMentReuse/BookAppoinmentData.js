@@ -5,7 +5,7 @@ export const arrayData = [
     date: "22-06-2021",
     timings: {
       free: "9:00",
-      booked: "9:30",
+      booked: "00:00 AM",
     },
   },
 
@@ -13,7 +13,7 @@ export const arrayData = [
     date: "23-06-2021",
     timings: {
       free: "9:00",
-      booked: "9:30",
+      booked: "00:00 AM",
     },
   },
 
@@ -21,7 +21,7 @@ export const arrayData = [
     date: "24-06-2021",
     timings: {
       free: "9:00",
-      booked: "9:30",
+      booked: "00:00 AM",
     },
   },
 
@@ -29,7 +29,7 @@ export const arrayData = [
     date: "23-06-2021",
     timings: {
       free: "9:00",
-      booked: "9:30",
+      booked: "00:00 AM",
     },
   },
 
@@ -37,7 +37,7 @@ export const arrayData = [
     date: "23-06-2021",
     timings: {
       free: "9:00",
-      booked: "9:30",
+      booked: "00:00 AM",
     },
   },
 
@@ -45,7 +45,7 @@ export const arrayData = [
     date: "23-06-2021",
     timings: {
       free: "9:00",
-      booked: "9:30",
+      booked: "00:00 AM",
     },
   },
 
@@ -53,7 +53,7 @@ export const arrayData = [
     date: "23-06-2021",
     timings: {
       free: "9:00",
-      booked: "9:30",
+      booked: "00:00 AM",
     },
   },
 
@@ -61,35 +61,35 @@ export const arrayData = [
     date: "23-06-2021",
     timings: {
       free: "9:00",
-      booked: "9:30",
+      booked: "00:00 AM",
     },
   },
   {
     date: "23-06-2021",
     timings: {
       free: "9:00",
-      booked: "9:30",
+      booked: "00:00 AM",
     },
   },
   {
     date: "23-06-2021",
     timings: {
       free: "9:00",
-      booked: "9:30",
+      booked: "00:00 AM",
     },
   },
   {
     date: "23-06-2021",
     timings: {
       free: "9:00",
-      booked: "9:30",
+      booked: "00:00 AM",
     },
   },
-  {
-    date: "23-06-2021",
-    timings: {
-      free: "9:00",
-      booked: "9:30",
-    },
-  },
+  // {
+  //   date: "23-06-2021",
+  //   timings: {
+  //     free: "9:00",
+  //     booked: "00:00 AM",
+  //   },
+  // },
 ];

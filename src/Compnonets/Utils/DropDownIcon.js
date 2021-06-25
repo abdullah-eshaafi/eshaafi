@@ -13,6 +13,18 @@ export const DropDownicon = ({ img, onClick, children }) => {
   );
 };
 
+export const DropDownslot = ({ img, onClick, children }) => {
+  return (
+    <>
+      <div className="icon-main-container" onClick={onClick}>
+        <p>{children}</p>
+        <img src={img} onClick={onClick} alt="Dropdown" />
+      </div>
+    </>
+  );
+};
+
+
 export const DropDownContainer = ({
   lg,
   md,

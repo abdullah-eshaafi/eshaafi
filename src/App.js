@@ -8,6 +8,7 @@ import Home from "./views/pages/home/Home";
 import TheLoginSystem from "./views/pages/home/TheLoginSystem";
 import Doctor_Listing from "./views/pages/DoctorListing/Doctor_Listing";
 import BookAppointment from "./views/pages/BookAppointment/BookAppointment";
+import Payment from "./views/pages/Payment/Payment";
 class App extends Component {
   render() {
     return (
@@ -22,6 +23,7 @@ class App extends Component {
             component={Doctor_Listing}
           />
           <Route exact path="/BookAppointment" component={BookAppointment} />
+          <Route exact path="/payment" component={Payment} />
         </Switch>
       </BrowserRouter>
     );

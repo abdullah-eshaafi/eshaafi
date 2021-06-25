@@ -2,6 +2,7 @@
   display: "flex";
   justify-content: space-between;
   margin-top: 32px;
+  margin-bottom: 40px;
 }
 .Book-appointment-image-Container {
   display: flex;
@@ -81,4 +82,225 @@
   letter-spacing: 0.15px;
   color: #1e1e1e;
 }
+/* ================================================================== */
 
+.col-md-12 {
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+}
+#bookappointment-image-container {
+  background: #e0f3f2;
+  border-radius: 6px 6px 0px 0px;
+}
+
+#clock-img {
+  border-left-color: #e0f3f2;
+}
+
+#calender-img {
+  border-right-color: #e0f3f2;
+}
+#clock-img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#calender-img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table {
+  margin-bottom: 8px !important;
+}
+
+#book-date {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  text-align: center;
+  letter-spacing: 0.15px;
+  padding: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #1e1e1e;
+}
+
+#book-time {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  text-align: center;
+  letter-spacing: 0.15px;
+
+  color: #1e1e1e;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* ========================================================== */
+
+.bookappoint-choose-date-row {
+  display: flex;
+  justify-content: center;
+}
+
+.bookappoint-choose-date-div {
+  width: 400px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bookappoint-choose-date-div p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #1e1e1e;
+}
+
+.choose-appointment-div {
+  width: 400px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.choose-appointment-div p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+  letter-spacing: 0.5px;
+  margin-bottom: 8px !important;
+  color: #1e1e1e;
+}
+
+.bookappoint-add-member {
+  display: flex;
+  justify-content: flex-end;
+  width: 400px;
+  margin-top: 8px;
+}
+
+.bookappoint-add-member p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #1e1e1e;
+}
+
+.bookappointment-booking-btn button {
+  background: #009b94;
+  width: 400px;
+  height: 48px;
+  border: none;
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  text-align: center;
+  letter-spacing: 1.25px;
+
+  /* Default / White */
+
+  color: #ffffff;
+}
+
+.bookapointment-terms p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 8px;
+}
+/* ===================================   =============================================  */
+
+.dropdown-toggle {
+  width: 400px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #1e1e1e;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+}
+
+.dropdown-menu.show {
+  width: 398px;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  background: #ffffff;
+  color: black;
+  border: 1px solid #009b94;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  background: #ffffff;
+  color: black;
+  border: 1px solid #cccccc;
+}
+
+.dropdown :hover {
+  background-color: #ffffff;
+  color: #1e1e1e;
+  border: 1px solid #009b94;
+}

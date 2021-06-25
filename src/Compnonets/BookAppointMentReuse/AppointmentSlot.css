@@ -24,6 +24,7 @@
 
 .Appointment-Date-selection {
   background: #ffffff;
+  width: 150px !important;
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -42,4 +43,41 @@
 .date-slider {
   display: flex;
   justify-content: center;
+}
+
+.slick-list {
+  width: 720px !important;
+}
+
+.slick-cloned > div {
+  align-items: center !important;
+  padding-left: 40px !important;
+}
+
+.timings-slot {
+  width: 108px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-right: 24px;
+  margin-bottom: 16px;
+}
+
+.timings-slot p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  padding-left: 16px;
+  padding-top: 10px;
+  /* identical to box height, or 175% */
+
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  margin-bottom: 0px !important;
+  color: #1e1e1e;
 }
