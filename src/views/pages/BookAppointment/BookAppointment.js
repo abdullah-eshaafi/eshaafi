@@ -8,7 +8,7 @@ import { useState } from "react";
 import Footer from "../../../Compnonets/Footer/Footer";
 import calender from "../../../Images/BookAppointment/calendar.svg";
 
-function BookAppointment() {
+function BookAppointment({ Chat_icon, Chat_terms, Chat_desc }) {
   //  state of current time
 
   const [currentDateTime, setCurrentTime] = useState(new Date());
@@ -121,7 +121,7 @@ function BookAppointment() {
                         <img src={calender} />
                       </th>
                       <th id="clock-img">
-                        <img src={calender} />
+                        <img src={Chat_icon} />
                       </th>
                     </tr>
                   </thead>
@@ -187,7 +187,22 @@ function BookAppointment() {
                 }}
                 className="bookapointment-terms"
               >
-                <p>By continuing you agree to terms & conditions </p>
+                <p>
+                  {Chat_terms}
+                  <br />
+                </p>
+              </div>
+            </Row>
+            <Row className="bookappoint-choose-date-row">
+              <div
+                style={{
+                  width: "400px",
+                  display: "flex",
+                  justifyContent: "flex-start",
+                }}
+                className="bookapointment-terms"
+              >
+                <p>{Chat_desc}</p>
               </div>
             </Row>
           </Container>

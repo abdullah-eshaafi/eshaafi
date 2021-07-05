@@ -1,0 +1,228 @@
+.AppointmentDetails-heading h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  text-align: center;
+  letter-spacing: 0.15px;
+
+  color: #1e1e1e;
+}
+.AppointmentDetails-date-time-main-container {
+  display: flex;
+  justify-content: center;
+}
+.AppointmentDetails-date-time-main {
+  display: flex;
+  justify-content: space-between;
+  width: 256px;
+}
+.AppointmentDetails-date > span > img,
+.AppointmentDetails-time > span > img {
+  margin-right: 12px;
+}
+.AppointmentDetails-date {
+  display: flex;
+}
+
+.AppointmentDetails-time {
+  display: flex;
+}
+
+.AppointmentDetails-date > p,
+.AppointmentDetails-time > p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+  margin-bottom: 8px;
+}
+
+.AppointmentDetails-patient {
+  width: 256px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.AppointmentDetails-patient > span > img {
+  margin-right: 12px;
+}
+
+.AppointmentDetails-patient > p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+}
+
+.Book-appointment-paid button {
+  background: #009b94;
+  border-radius: 93px;
+  padding: 0px 12px;
+  border: none;
+  margin-left: 10px;
+  margin-right: 16px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.Book-appointment-img-Reschedule img {
+  margin-right: 8px;
+}
+.Book-appointment-fee p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+  margin-right: 16px;
+}
+.Book-appointment-img-cancel img {
+  margin-right: 8px;
+}
+
+/* body {
+  background-color: #bdc3c7;
+} */
+
+#Patient-Recore-Row th {
+  background-color: #ffffff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.5px;
+
+  color: #5c5c5c;
+}
+
+.Record-patient-name-heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+}
+
+#Patient-Records-Row > tr > td {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.5px;
+
+  color: #5c5c5c;
+}
+
+.Share-medical-history h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+}
+
+.Share-medical-history img {
+  margin-right: 10px;
+}
+
+.medical-history-main-container {
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+.record-share-btn {
+  padding-top: 16px;
+}
+.record-share-btn button {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  text-align: center;
+  letter-spacing: 1.25px;
+
+  /* Default / White */
+
+  color: #ffffff;
+  background-color: #009b94;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+}
+
+.record-view-details h4 {
+  margin-top: 40px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin-bottom: 0px;
+  color: #1e1e1e;
+}
+
+.Go-To-Appointments h4 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  text-align: center;
+  letter-spacing: 1.25px;
+
+  color: #009b94;
+}

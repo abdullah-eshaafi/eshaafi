@@ -1,27 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 @import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* Main Fluid container Responsible for Green background */
+
 .Jumbo-container {
   background: #009b94;
-  height: 432px !important;
+
   border: none;
   border-radius: 0px;
   margin: 0px;
 }
+
+/* Main  container Responsible for Green background */
+
 .Jumbo-contain {
   background: #009b94;
-
-  height: 432px;
 }
 
-/* .form-input input{
-    width:50% !important;
-} */
-.Jumbtron-heading {
-  width: 735px;
-  height: 128px;
+/* Find & Connect With The Best 
+Doctors in Pakistan CSS */
 
+.Jumbtron-heading {
   margin-left: auto;
   margin-right: auto;
   margin-top: 64px;
@@ -37,92 +34,89 @@
   color: #ffffff;
 }
 
-.form-input {
+/* Two Searches Main Container */
+
+.Search-bar-main-container {
+  display: flex;
+  justify-content: space-around;
   margin-top: 40px;
-  background-color: #ffffff;
 }
 
-.search-input input {
-  margin-top: 40px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-}
-.input-lahore {
-  width: 232px;
+/* First Search With icons */
+
+.City-search-detect {
+  width: 292px !important;
   height: 48px;
+  background: #ffffff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.City-search-detect > input {
+  width: 220px;
   outline: none;
   border: none;
 }
-.input-lahore::placeholder {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 28px;
-  /* identical to box height, or 175% */
-  padding-left: 15px;
-  letter-spacing: 0.5px;
-
-  color: #5c5c5c;
-}
-
 .location-icon {
-  margin-top: 16px;
-  margin-left: 15px;
+  padding-left: 13px;
 }
-.search-input::placeholder {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 28px;
-  /* identical to box height, or 175% */
-
-  letter-spacing: 0.5px;
-
-  color: #5c5c5c;
+.detect-icon {
+  padding-right: 13px;
 }
 
-.form-input::placeholder {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 28px;
-  /* identical to box height, or 175% */
+/* Seconnd Search with Out icon */
 
-  letter-spacing: 0.5px;
-
-  color: #5c5c5c;
+.search-for-specialist {
+  width: 768px;
+  background: #ffffff;
+  border-radius: 4px;
+  display: flex;
+  margin-left: 20px;
+  border-top-right-radius: none;
+  border-bottom-right-radius: none;
+}
+.search-for-specialist > input {
+  width: 664px !important;
+  height: 48px;
+  border: none;
+  margin-left: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.search-for-specialist > input:focus {
+  outline: none;
 }
 
-.Jumbo-btn button {
-  width: 120px;
+/* Seconnd Search with Out icon  button*/
+
+#search-for-specialist-button {
   height: 48px;
   background: #00625d;
   border-radius: 4px;
-  margin-top: 40px;
-  border: none;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  color: #ffffff;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  padding: 12px 32px;
   letter-spacing: 1.25px;
+  border: none;
+  color: #ffffff;
 }
 
-.Jumbo-btn button:hover {
-  background: #00504c;
-}
-.btn-second {
-  display: flex;
-  justify-content: center;
-  margin-top: 32px;
-}
+/* Join As Doctor button */
 
 .btn-second button {
-  width: 196px;
-  height: 56px;
   background: #ff9300;
   border-radius: 4px;
+  padding: 16px 32px;
+  border: none;
 
   font-family: Poppins;
   font-style: normal;
@@ -134,8 +128,67 @@
   letter-spacing: 1.25px;
 
   color: #ffffff;
-  border: none;
+  margin-top: 32px;
+  margin-bottom: 64px;
 }
-.btn-second button:hover {
-  background: #e98600;
+
+/* Placehodlder for Search */
+.search-for-specialist > input::placeholder,
+.City-search-detect > input::placeholder {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  letter-spacing: 0.5px;
+
+  color: #5c5c5c;
+}
+
+@media only screen and (max-width: 800px) {
+  .Jumbtron-heading h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+
+    color: #ffffff;
+  }
+  .Search-bar-main-container {
+    display: block;
+  }
+  .City-search-detect {
+    width: 300px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .search-for-specialist {
+    width: 300px !important;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  #search-for-specialist-button {
+    display: none;
+  }
+
+  .search-for-specialist > input {
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .search-for-specialist {
+    margin-top: 10px;
+  }
+  .btn-second button {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
 }

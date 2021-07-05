@@ -10,8 +10,7 @@ import "./DoctorListing.css";
 import Footer from "../../container/Footer";
 // Icons In Search Bar
 
-const locationIcon = <i class="location-icon fas fa-map-marker-alt 9x"></i>;
-const detectIcon = <i class="fas fa-crosshairs fa-lg"></i>;
+
 function DoctorListing() {
   return (
     <>
@@ -22,26 +21,27 @@ function DoctorListing() {
       {/* Jumbotron Section */}
 
       <Container fluid style={{ backgroundColor: "#E0F3F2", height: "128px" }}>
-        <Container>
-          <Row>
-            <Col sm={(12, "d-flex justify-content-center")}>
-              <div className="form-input">
-                <Searchbar
-                  locationIcon={locationIcon}
-                  detectIcon={detectIcon}
-                />
-              </div>
-            </Col>
-            <Col className="pr-0  search-input" sm={12} xl={6} lg={6}>
-              <Searchbar
+        <Container className="d-flex align-items-center">
+          <Row className="Search-bar-main-container px-0 mx-0 ">
+            <div className="City-search-detect">
+              <span>
+                <i class="location-icon fas fa-map-marker-alt 9x"></i>
+              </span>
+              <input type="text" placeholder="Lahore" />
+              <span>
+                <i class="fas fa-crosshairs fa-lg detect-icon"></i>
+              </span>
+            </div>
+
+            <div className="search-for-specialist">
+              <input
+                type="text"
                 placeholder="Search for doctors, specialties, symptoms"
-                serachStyle="search-style-secondry"
-                serachSize="search-size-secondry"
               />
-            </Col>
-            <Col className="pl-0  Jumbo-btn" xl={2} lg={2}>
-              <TheButton title="search" />
-            </Col>
+              <span>
+                <button id="search-for-specialist-button">Search</button>
+              </span>
+            </div>
           </Row>
         </Container>
       </Container>

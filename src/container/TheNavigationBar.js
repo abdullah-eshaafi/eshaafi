@@ -87,6 +87,7 @@ const TheNavigationBar = () => {
             FirstHeading="Choose a specialty"
             SecondHeading="  View all specialties"
             IconArrow={IconArrow}
+            marginBottom="24px"
           />
         </Container>
       </div>

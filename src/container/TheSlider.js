@@ -42,7 +42,7 @@ export default function TheSlider() {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     infinite: true,
-    speed: 1000,
+    speed: 500,
     slidesToShow: 5,
     slidesToScroll: 1,
     initialSlide: 0,

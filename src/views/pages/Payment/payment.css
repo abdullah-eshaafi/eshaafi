@@ -1,0 +1,104 @@
+.payment-to-confirm p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+}
+
+.payment-card-selection {
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.payment-card- {
+  display: flex;
+  justify-content: space-between;
+}
+
+.images-card-selection {
+  display: flex;
+
+  align-items: center;
+}
+
+.images-card-selection img {
+  margin-left: 8px;
+}
+.pay-with-card {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+
+  padding: 26px 16px 26px 16px;
+}
+
+.pay-with-card-img > img {
+  padding-left: 16px;
+}
+
+.change-appointment-time p {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.5px;
+
+  color: #1e1e1e;
+  margin-bottom: 0px !important;
+}
+
+.change-appointment-time {
+  display: flex;
+  justify-content: center;
+}
+
+.change-appointment-time button {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 1.25px;
+
+  color: #009b94;
+  border: none;
+  background: #fff;
+}
+.F-A-Q-S {
+  margin-top: 40px;
+}
+.F-A-Q-S h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  letter-spacing: 0.15px;
+
+  color: #1e1e1e;
+}

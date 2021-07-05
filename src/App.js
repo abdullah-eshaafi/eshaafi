@@ -7,8 +7,11 @@ import Home from "./views/pages/home/Home";
 
 import TheLoginSystem from "./views/pages/home/TheLoginSystem";
 import Doctor_Listing from "./views/pages/DoctorListing/Doctor_Listing";
-import BookAppointment from "./views/pages/BookAppointment/BookAppointment";
+import BookAppointmentChat from "./views/pages/BookAppointment/BookAppointmentChat";
+import BookAppointmentVideo from "./views/pages/BookAppointment/BookAppointmentVideo";
 import Payment from "./views/pages/Payment/Payment";
+import AppointmentDetails from "./views/pages/Doctor/AppointmentDetails";
+import DoctorProfile from "./views/pages/Doctor/DoctorProfile";
 class App extends Component {
   render() {
     return (
@@ -22,8 +25,18 @@ class App extends Component {
             path="/pakistan/lahore/dermatologist"
             component={Doctor_Listing}
           />
-          <Route exact path="/BookAppointment" component={BookAppointment} />
+          <Route
+            exact
+            path="/BookAppointmentChat"
+            component={BookAppointmentChat}
+          />
+          <Route
+            exact
+            path="/BookAppointmentVideo"
+            component={BookAppointmentVideo}
+          />          <Route exact path="/AppointmentDetails" component={AppointmentDetails} />
           <Route exact path="/payment" component={Payment} />
+          <Route exact path="/doctorprofile" component={DoctorProfile} />
         </Switch>
       </BrowserRouter>
     );

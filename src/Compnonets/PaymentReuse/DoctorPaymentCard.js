@@ -48,18 +48,32 @@ function DoctorPaymentCard() {
         </div>
       </div>
 
-      <label style={{ marginTop: "10px" }}>
-        <Switch
-          onChange={handleChangetoggle}
-          checked={checked}
-          uncheckedIcon={false}
-          checkedIcon={false}
-          offColor="#F0F0F0"
-          offHandleColor="CCCCCC"
-          onColor="#E0F3F2"
-          onHandleColor="#009B94"
-        />
-      </label>
+      <div className="toggle-container">
+        <div>
+          <p>Use wallet balance</p>
+        </div>{" "}
+        <div>
+          <label style={{ marginTop: "10px" }}>
+            <Switch
+              onChange={handleChangetoggle}
+              checked={checked}
+              uncheckedIcon={false}
+              checkedIcon={false}
+              offColor="#F0F0F0"
+              offHandleColor="CCCCCC"
+              onColor="#E0F3F2"
+              onHandleColor="#009B94"
+            />
+          </label>
+        </div>
+      </div>
+      <div className="avialable-balance">
+        <p>Available balance: Rs. 800</p>
+      </div>
+
+      <div className="d-flex justify-content-center">
+        <button id="pay-now">Pay Now</button>
+      </div>
     </div>
   );
 }

@@ -2,7 +2,7 @@
   width: 324px;
   height: 48px;
   background: #ffffff;
-  border-radius: 4px;
+  border-radius: 4px !important;
 }
 .search-size-primary input {
   border: none;
@@ -13,12 +13,14 @@
   outline: none;
 }
 
-.search-style-secondry input {
+.search-style-secondry > input {
   width: 648px;
   height: 48px;
   border: 2px solid block;
   background: #ffffff;
   border-radius: 4px;
+  border-top-right-radius: none !important;
+  border-bottom-right-radius: none !important;
   border: none;
 }
 
@@ -31,4 +33,12 @@
   height: 48px;
   margin-left: 9px !important;
   margin-bottom: 24px;
+}
+
+.search-style-primary > input::placeholder {
+  padding-left: 15px;
+}
+
+.search-style-secondry > input::placeholder {
+  padding-left: 15px;
 }

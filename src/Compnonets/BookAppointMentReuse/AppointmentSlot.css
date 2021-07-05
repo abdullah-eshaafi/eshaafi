@@ -45,14 +45,14 @@
   justify-content: center;
 }
 
-.slick-list {
+/* .slick-list {
   width: 720px !important;
 }
 
 .slick-cloned > div {
   align-items: center !important;
   padding-left: 40px !important;
-}
+} */
 
 .timings-slot {
   width: 108px;
